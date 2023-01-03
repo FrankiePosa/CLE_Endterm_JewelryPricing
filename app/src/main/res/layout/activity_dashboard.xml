@@ -8,13 +8,18 @@
     android:background="#ffff"
     android:orientation="vertical">
 
+
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="1080px"
         android:layout_height="80dp"
         android:src="@drawable/banner" />
 
+
     <Button
+        android:id="@+id/csvv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
@@ -22,7 +27,6 @@
         android:text="CSV">
 
     </Button>
-
 
     <TextView
         android:id="@+id/textView"
@@ -213,18 +217,6 @@
 
         </LinearLayout>
     </RelativeLayout>
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
 
 
 </LinearLayout>
